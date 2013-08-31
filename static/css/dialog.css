@@ -1,0 +1,66 @@
+.jt_dialog{
+	background: #f9f9f9;
+border: 1px solid #eee;
+border-top: 0;
+border-bottom-color: #ccc;
+color: #444;
+text-shadow: none;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 1px;
+}
+.jt_dl_close{position:absolute;top:-12px;right:-12px;width:36px;height:36px;background: url(/static/img/fancybox_sprite.png) 0 0 no-repeat;z-index: 20;}
+.jt_dl_hd{text-align: center;padding:0 10px;}
+.jt_dl_hd a{display: block;color:#004276;padding:3px 0px 15px;border-bottom:1px dotted #ccc;}
+.jt_dl_bd{padding:10px;}
+.jt_dl_reply_content{border-bottom: 1px dotted #ccc;}
+.jt_dl_reply_nick{color:#006a92;font-weight: 800;}
+.jt_dl_reply_c{font-size: 14px;overflow: hidden;word-wrap: break-word;line-height: 20px;}
+.jt_dl_reply_time{text-align: right;padding-right: 30px;color: #759AAD;font-size:12px;line-height: 20px;}
+.jt_dl_ft{padding:10px;}
+.jt_dl_ft textarea{
+	border: 1px dotted #ccc;
+width: 685px;
+height: 80px;
+padding: 2px 3px;
+margin-bottom: 7px;
+font-size: 14px;
+}
+.jt_dl_tr{text-align: right;padding-right: 10px;}
+.jt_dl_bt{
+	border: 1px solid #ccc;
+height: 42px;
+display: inline-block;
+}
+.jt_dl_bt button{
+	z-index: 1;
+overflow: visible;
+display: inline-block;
+border: 0;
+margin: 0;
+text-align: center;
+white-space: nowrap;
+cursor: pointer;
+color: #555;
+background-color: #fff;
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#f3f3f3));
+background-image: -moz-linear-gradient(#fff,#f3f3f3);
+background-image: -o-linear-gradient(#fff,#f3f3f3);
+background-image: linear-gradient(#fff,#f3f3f3);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff',EndColorStr='#f3f3f3');
+zoom: 1;
+font-size: 16px;
+text-align: center;
+overflow: visible;
+height: 42px;
+padding: 0 28px;
+line-height: 41px;
+padding-bottom: 2px;
+line-height: 43px\9;
+_padding-top: 5px;
+_line-height: 16px;
+vertical-align: text-bottom;
+}
+.jt_dl_ft input{
+	border: 1px dotted #ccc;height:20px;width:200px;
+}

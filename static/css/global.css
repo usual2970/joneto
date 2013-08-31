@@ -1,0 +1,7 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td,a,li,ul,img { margin: 0; padding: 0; list-style: none;text-decoration: none;border:none;} 
+.clearfix:after{ content:"."; display:block; height:0; clear:both; visibility:hidden; } 
+* html .clearfix{height:1%;}
+input,pre,body,button,select,textarea,div,span{font-family:"Segoe UI","Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;}body{font-size:14px;line-height:28px;}body{overflow-x:hidden;}
+
+
+form input {border: 1px solid #DDD;height: 26px;line-height: 26px;padding: 1px 3px;vertical-align: middle;}
