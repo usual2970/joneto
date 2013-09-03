@@ -10,6 +10,7 @@ Blog：http://t.qq.com/usual2970
 		var opts=$.extend({},$.dialog_comm.defaults,option);
 		var pos=comp_position(opts.width);
 		var tpl=$("#dialog_tpl").html();
+		var cont=get_content(opts.art_id);
 		var data={
 			pos:pos,
 			siteurl:site_url
@@ -24,7 +25,9 @@ Blog：http://t.qq.com/usual2970
 			dl_close();
 		})
 	}
+	function get_content(id){
 
+	}
 	function comp_position(w){
 		var wh=$(window).height();
 		var h=wh*95/100;
@@ -37,7 +40,8 @@ Blog：http://t.qq.com/usual2970
 	}
 
 	$.dialog_comm.defaults={
-		width:720
+		width:720,
+		art_id:0
 	};
 
 })(jQuery);

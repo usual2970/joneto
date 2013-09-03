@@ -86,7 +86,7 @@
         <span class="jt_split">-</span>
 
         <a class="jt_post_comm" href="javascript:void(0);">
-          <span id="jt_comm">评论</span>
+          <span id="jt_comm" alt="$${v.Id}">评论</span>
           <span class="jt_ml3 jt_reply_count" id="jt_comm_num">2</span>
         </a>
 
