@@ -1,0 +1,14 @@
+nohup: ignoring input
+2013/09/01 22:38:54 [C] [Handler crashed with error runtime error: index out of range]
+2013/09/01 22:38:54 [C] [/usr/local/go/src/pkg/runtime/traceback_x86.c 211]
+2013/09/01 22:38:54 [C] [/usr/local/go/src/pkg/runtime/runtime.c 275]
+2013/09/01 22:38:54 [C] [/root/go/src/github.com/astaxie/beego/router.go 261]
+2013/09/01 22:38:54 [C] [/usr/local/go/src/pkg/runtime/panic.c 229]
+2013/09/01 22:38:54 [C] [/usr/local/go/src/pkg/runtime/panic.c 487]
+2013/09/01 22:38:54 [C] [/usr/local/go/src/pkg/runtime/panic.c 442]
+2013/09/01 22:38:54 [C] [/root/go/src/github.com/astaxie/beego/router.go 389]
+2013/09/01 22:38:54 [C] [/usr/local/go/src/pkg/net/http/server.go 1517]
+2013/09/01 22:38:54 [C] [/usr/local/go/src/pkg/net/http/server.go 1096]
+2013/09/01 22:38:54 [C] [/usr/local/go/src/pkg/runtime/proc.c 1223]
+[MySQL] 2013/09/02 11:53:29 packets.go:31: EOF
+[MySQL] 2013/09/03 10:43:23 packets.go:31: EOF
