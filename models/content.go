@@ -20,6 +20,7 @@ type Jt_content struct{
 	Sort_order		int16	   	``
 	Category_id 	int    		``
 	Album_id		int    		``
+	Comments		[]*Jt_comment `orm:"rel(m2m)"`
 	orm.Manager `json:"-"`
 }
 
