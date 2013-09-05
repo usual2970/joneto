@@ -21,7 +21,7 @@ func (this *CommentController) Get(){
 	id,_:=strconv.ParseInt(this.Ctx.Params[":id"],10,64)
 	o := orm.NewOrm()
 	var comments []*models.Jt_comment
-	cnt, _ := o.QueryTable("Jt_comment").RelatedSel().Filter("id",id).Filter("parent_id",0).OrderBy("-id").All(&comments)
+	cnt, _ := o.QueryTable("Jt_comment").RelatedSel().Filter("id",id).OrderBy("-id").All(&comments)
 	this.Data["json"]=&Cdata{int(cnt),comments}
 	this.ServeJson()
 }
