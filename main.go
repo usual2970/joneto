@@ -12,6 +12,7 @@ func main() {
 	beego.Router("/art/:id([0-9]+)",&controllers.ArtController{})
 	beego.Router("/comm/:id([0-9]+)",&controllers.CommentController{})
 	beego.Router("/amd/login",&controllers.AdmLogin{})
+	beego.Router("/amd",&controllers.AmdArtlist{})
 	beego.Run()
 }
 

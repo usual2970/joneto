@@ -34,7 +34,7 @@ box-shadow: 0 1px 2px rgba(0,0,0,.05);}
 
     <div class="container">
 
-      <form class="form-signin" method="post">
+      <form class="form-signin" method="post" action="{{.siteurl}}/amd/login">
         <h3 class="form-signin-heading">管理员登录</h2>
         <input type="text" class="form-control" placeholder="Email address" autofocus name="email" value="{{.email}}">
         <input type="password" class="form-control" placeholder="Password" name="password" value="{{.password}}">
